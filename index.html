@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+     <!-- Link to the external JS file -->
+     <script src="main.js"></script>
+    <title>Profile Page</title>
+</head>
+<body>
+
+    <main class="profile">
+        <h1 class="profile-slack_username" data-testid="slackUserName">ymujahid</h1>
+        <div class="profile-image_container">
+            <img src="images/profile-img.jpg" alt="ymujahid" class="profile-display_picture" data-testid="slackDisplayImage">
+        </div>
+        <p class="current_day" data-testid="currentDayOfTheWeek">Current Day of the week: <span id="currentDay"></span></p>
+        <p class="current_utc_time" data-testid="currentUTCTime">Current UTC Time: <span id="currentTime"></span></p>
+        <p class="profile-track" data-testid="myTrack">My Track: Frontend</p>
+        <p class="profile-github_repo" data-testid="githubURL">My Github Repository: <a href="https://github.com/ymujahid/profile_page">ymujahid/profile_page</a></p>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>

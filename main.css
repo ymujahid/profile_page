@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url('images/bg-image.jpg');
+    background-position: right center;
+    background-size: contain;
+    /* background-repeat: repeat; */
+}
+
+.profile {
+    background-image: url('images/main-bg.jpg');
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+    color: white;
+    height: inherit;
+    display: grid;
+    place-items: center;
+}
+
+.profile-display_picture {
+    border-radius: 50%;
+}
+
+.profile-github_repo a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-github_repo a:hover,
+.profile-github_repo a:hover {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
