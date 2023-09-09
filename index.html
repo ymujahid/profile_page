@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-     <!-- Link to the external JS file -->
-     <script src="main.js"></script>
     <title>Profile Page</title>
 </head>
 <body>
@@ -14,12 +12,12 @@
     <main class="profile">
         <h1 class="profile-slack_username" data-testid="slackUserName">Mujahid Yunus</h1>
         <div class="profile-image_container">
-            <img src="images/profile-img.jpg" alt="ymujahid" class="profile-display_picture" data-testid="slackDisplayImage">
+            <img src="images/profile-img.jpg" alt="Mujahid Yunus" class="profile-display_picture" data-testid="slackDisplayImage">
         </div>
         <p class="current_day">Current Day of the week: <span data-testid="currentDayOfTheWeek"></span></p>
         <p class="current_utc_time">Current UTC Time: <span data-testid="currentUTCTime"></span></p>
-        <p class="profile-track" data-testid="myTrack">My Track: Frontend</p>
-        <p class="profile-github_repo" data-testid="githubURL">My Github Repository: <a href="https://github.com/ymujahid/profile_page">ymujahid/profile_page</a></p>
+        <p class="profile-track">My Track: <span data-testid="myTrack">Frontend</span></p>
+        <p class="profile-github_repo">My Github Repository: <a href="https://github.com/ymujahid/profile_page" data-testid="githubURL">https://github.com/ymujahid/profile_page</a></p>
     </main>
     
     <script src="script.js"></script>
